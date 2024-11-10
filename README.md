@@ -17,7 +17,9 @@ cd insurance-charges-prediction
 # Running the project
 
 Deploy the model using FastAPI:
+
 uvicorn main:app --host 127.0.0.1 --port 8000 --reload
+
 The API can be accessed at http://127.0.0.1:8000/.
 
 # License
